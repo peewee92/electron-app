@@ -1,4 +1,5 @@
-import { createHashRouter, Navigate } from 'react-router-dom'
+import React from 'react';
+import { createHashRouter, BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import Login from '@renderer/pages/login'
 import Home from '@renderer/pages/home'
 
